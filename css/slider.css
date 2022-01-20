@@ -78,7 +78,7 @@
 
 @media(max-width:1080px){
     .slider{
-        width: 700px;
+        width: 100%;
         margin: 0 auto;   
     }
     .slider__1{
@@ -111,6 +111,6 @@
     }
     .slick-dots li{
         list-style: none;
-        margin-left: 50px;
+        margin-left: 30px;
     }
 }
