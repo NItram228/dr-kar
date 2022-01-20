@@ -75,3 +75,42 @@
 .slick-dots li.slick-active button{
     transform: scale(1.2);
 }
+
+@media(max-width:720px){
+    .slider{
+        width: 700px;
+        margin: 0 auto;   
+    }
+    .slider__1{
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../img/slider-1.jpeg);
+        border-top: 2px red solid;
+        border-bottom: 2px red solid;
+        border-radius: 40px;
+    }
+    .slider__2{
+        height: 500px;
+        background-image: url(../img/slider-2.jpeg);
+        background-size: cover;
+        background-position: center;
+        border-top: 2px red solid;
+        border-bottom: 2px red solid;
+        border-radius: 40px;
+    }
+    .slider__3{
+        height: 500px;
+        background-image: url(../img/slider-3.jpeg);
+        background-size: cover;
+        background-position: center;
+        border-top: 2px red solid;
+        border-bottom: 2px red solid;
+        border-radius: 40px;
+        position: relative;
+    }
+    .slick-dots li{
+        list-style: none;
+        margin-left: 50px;
+    }
+}
