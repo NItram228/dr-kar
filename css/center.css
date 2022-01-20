@@ -2,7 +2,6 @@
     padding-top: 30px;
     width: 100%;
     background-color: pink;
-
 }
 .inform__conteiner{
     width: 800px;
@@ -85,5 +84,10 @@
     }
     .inform__title{
         font-size: 19px;
+    }
+    .center{
+        padding:30px 10px 10px;
+        width: 100%;
+        background-color: pink;
     }
 }
