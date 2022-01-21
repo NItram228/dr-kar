@@ -35,6 +35,15 @@
     transform: scale(1.5);
     fill: red;
 }
+.pointer{
+    font-size: 25px;
+    color: white;
+    text-shadow: rgb(0, 68, 255) 2px 3px 2px; 
+    position: absolute;
+    bottom: 120px;
+    left: 50%-186px;
+    margin-bottom: 20px;    
+}
 @media (max-width: 1080px){
     .header{
     width: 100%;

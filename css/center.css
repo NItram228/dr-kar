@@ -58,6 +58,16 @@
     background-position: center;
     background-image: url(../img/card-4.jpeg);
 }
+.video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.video video{
+    width: 800px;
+}
 
 @media (max-width: 1080px){
     .card__conteiner{
@@ -89,5 +99,16 @@
         padding:30px 10px 10px;
         width: 100%;
         background-color: pink;
+    }
+
+    .video{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .video video{
+        width: 100%;
     }
 }
